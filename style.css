@@ -1,16 +1,15 @@
 body{
-background-color: #B1C7DB;
-color: #fff;
+background-image: url("../images/aboutme1.jpg");
+background-repeat: no-repeat;
 font-family: "Istok Web", sans-serif;
 font-weight: normal;
 line-height: 1.2em;
-color: #0C3D99;
 }
 
 header{
   height: 100px;
   position: fixed;
-  padding: auto;
+  padding: 0 100px;
   display: block;
   z-index: 1000;
 }
@@ -203,22 +202,50 @@ a {
 
 
 h1{
-font-size: 2em;
-line-height: 2;
+font-size: 50px;
+line-height: 1;
 text-align: center;
 } 
 
 h2{
-font-size: 1.5em;
-/*line-height: 1.5;*/
+font-size: 40px;
+line-height: 1;
 text-align: center;
 } 
 
 p{
-  font-size: 64px;
+  font-size: 35px;
   padding-top: 30px;
+  text-align: center;
 }
 
+.container{
+  display: grid;
+  grid-row-gap: 15px;
+  grid-template-columns: 1fr 5fr 1fr;
+  grid-template-rows: auto auto auto auto auto;
+}
+
+.aboutme-image{
+  grid-column: auto;
+}
+
+.aboutme{
+  grid-column: 2 / span 1;
+}
+
+.aboutme, .aboutme-image{
+  grid-row: 2 / auto;
+}
+
+.text-block{
+  background-color: rgba(255, 255, 255, .8);
+  border: 10px solid black;
+  padding: 30px;
+  /*Your code here:*/
+  align-self: center;
+
+}
 /* nav li{
 display:inline;
 padding: 50px 0;
