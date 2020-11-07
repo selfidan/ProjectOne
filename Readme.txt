@@ -1,4 +1,16 @@
-CRITERIA FOR PORTFOLIO PEER REVIEW (DUE: 11/09/2020)
+Picture sources if not my own: 
+
+algae: https://unsplash.com/photos/4IyllFjr3Rw
+roush: https://unsplash.com/photos/9R5lmbFGPqI
+algae1: https://unsplash.com/photos/TK59c3P9j9g
+waternav1: https://unsplash.com/photos/NZ0HxSy55hY
+physics: https://unsplash.com/photos/pjTU9Edzc1g
+aboutme1: https://unsplash.com/photos/V8nAvRXOklo
+venus: https://unsplash.com/photos/JLbE7GlZszU
+
+CRITERIA FOR PORTFOLIO (DUE: 12/11/2020)
+
+PEER REVIEW (DUE: 11/06/2020)
 
 1.) Submit a (minimum four page) site.
 
