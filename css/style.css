@@ -168,7 +168,7 @@ nav{
 }
 
 .physics, .venus, .roush, .algae{
-  grid-column: 1 / -1;
+  grid-column: 1 / span 1 ;
 }
 
 /* .physics-image, .venus-image, .roush-image, .algae-image{
