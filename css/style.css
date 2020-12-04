@@ -5,9 +5,8 @@ body{
   background-size: cover;       /* Parallax effect */
   height: 400px;                /* Parallax effect */
   color: #050505;
-  font-size: 16px;
-  font-family: "Andika", sans-serif;
-  background-size: cover;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
   background-image: url("../images/aboutme1.jpg");
   background-color: aliceblue;
   margin: 0;
@@ -33,6 +32,7 @@ h2 {
 p {
   font-size: 1.5em;
   text-align: center;
+  font-weight: bold;
 }
 
 h3 {
@@ -51,10 +51,13 @@ nav a{
   font-weight: bold;
   text-decoration: none; 
   border: 2px solid #050505;
-  border-top-left-radius: .8em;
-  border-top-right-radius: .8em;
-  border-bottom-left-radius: .8em;
-  border-bottom-right-radius: .8em;
+  border-top-left-radius: .4em;
+  border-top-right-radius: .4em;
+  border-bottom-left-radius: .4em;
+  border-bottom-right-radius: .4em;
+  padding: 10fr;
+  background-color: #dad2d2;
+  opacity: 90%;
 }
 
 nav a:hover, nav a:focus{
@@ -106,13 +109,13 @@ nav{
 }
 
 .container{
-  display: flex;
+  display: flex; 
   flex-wrap: wrap;
-  margin: 5px;
+  /* margin: 5px; */
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 75px;
   
 } 
 
@@ -123,7 +126,7 @@ nav{
   color: #000000;
   padding: 15px ;
   text-align: center;
-  opacity: 70%;
+  opacity: 90%;
   /* grid-row: 2 / auto;
   grid-column: 1 / -1; */
 } 
@@ -140,11 +143,52 @@ nav{
 .fa {
   display: inline-block;
 }
+
+.button {
+  -webkit-writing-mode: horizontal-tb !important;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  cursor: default;
+  box-sizing: border-box;
+  margin: 0em;
+  padding: 20px 1px;
+  border-style: none;
+  border-image: initial;
+  background-color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  text-emphasis: bold;
+  color: #000000;
+}  
+
+.fa {
+  padding: 21.5px;
+  font-size: 15px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #025d88;
+  color: white;
+}
+
 .container1{
   display: grid;
-  grid-row-gap: 70px;
+  grid-row-gap: 15px;
   grid-template-columns: 1fr 5fr 1fr;
   grid-template-rows: auto auto auto auto auto;
+  justify-content: center;
+  align-items: center;
 }
 
 .container2{
@@ -164,11 +208,19 @@ nav{
   grid-column: 1 / -1;
   max-height: 700px;
   /* min-width: 100%; */
-  overflow: auto;
+  overflow: hidden;
+} 
+
+.text-block{
+  background-color: rgba(255, 255, 255, .8);
+  border: 10px solid black;
+  padding: 30px;
+  /*Your code here:*/
+  align-self: center;
 }
 
 .physics, .venus, .roush, .algae{
-  grid-column: 1 / span 1 ;
+  grid-column: 2 / span 1 ;
 }
 
 /* .physics-image, .venus-image, .roush-image, .algae-image{
@@ -234,7 +286,7 @@ header{
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  opacity: 70%;
+  opacity: 90%;
 }
 
 /* for the form */
@@ -350,10 +402,10 @@ input[type=submit]:hover {
   
   #bounce{
      /*Your code here.*/
-     background-color: #74dcf7;
+     /* background-color: #74dcf7; */
      animation-name: bounce;
      animation-duration: 5s;
-     animation-iteration-count: 2;
+     animation-iteration-count: 1;
      animation-direction: reverse;
      display: block;
      margin-right: auto;
