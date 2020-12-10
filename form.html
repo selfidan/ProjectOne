@@ -4,13 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="imgs/email.png"/>
-  <title>Sample Form</title>
+  <title>Contact Me</title>
   <link rel="stylesheet" href="css/style.css"/>
 
 </head>
 <body>
     <!-- Action removed for security purposes -->
- <form>
+ <form action="mailto:selin.fidan99@gmail.com" method="post" enctype="text/plain">
   <fieldset>
     <legend>Shoot me a message!</legend>
 
@@ -25,13 +25,10 @@
     <div><span>Format: 123-456-7890</span></div>
 
 
-    <label for="msg">Leave A Message</label>
+    <label for="msg">Message</label>
     <textarea placeholder="Enter your message" id = "msg" name="mesg" required></textarea><br>
 
-    <input type="checkbox" checked="checked" name="remember" id = "cBox"> 
-    <label for ="cBox">Remember me</label>
-
-    <input type="submit" value = "Contact Me">
+    <input type="submit" value = "Contact Me"/>
   </fieldset>
  </form>
 </body>
